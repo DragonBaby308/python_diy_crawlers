@@ -40,3 +40,5 @@ for h in range(len(sub_urls) ):
     # with语句可以保证文件操作的安全性
     with open('D://python/little_sister_too_poor_to_afford_clothes/' + str(h+1) + '-' + str(i+1) + '.jpg', 'wb') as f:
       f.write(img)
+
+      # 测试一下小铅笔
